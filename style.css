@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+
+
+}
+
+header {
+    border: 1px solid purple;
+    height: 100%;
+
+
+
+}
+
+.info {
+    border: 1px solid black;
+    height: 100%;
+
+
+}
+
+.quote {
+
+    /*font-size: 36px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-weight: lighter; */
+    border: 1px solid #E5E7EB;
+    height: 100%;
+
+}
+
+
+.sign-up {
+    border: 1px solid green;
+    height: 100%;
+
+}
+
+footer {
+
+    border: 1px solid blue;
+    height: 100%;
+}
