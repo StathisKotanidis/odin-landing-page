@@ -10,40 +10,122 @@ body {
 
 header {
     border: 1px solid purple;
-    height: 100%;
+    flex: 2;
 
 
 
 }
 
 .info {
-    border: 1px solid black;
-    height: 100%;
 
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
+h2 {
+
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.box-image {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #3882F6;
+    border-radius: 5px;
+
+}
+
+
 .quote {
 
-    /*font-size: 36px;
+    font-size: 36px;
     color: #1F2937;
     background-color: #E5E7EB;
     font-style: italic;
-    font-weight: lighter; */
-    border: 1px solid #E5E7EB;
-    height: 100%;
+    font-weight: lighter;
+    flex: 1;
+    padding: 90px 50px;
+    text-align: center;
 
+}
+
+#thomas {
+    text-align: right;
+    padding-right: 90px;
+    font-weight: bold;
+    padding-top: 20px;
 }
 
 
 .sign-up {
-    border: 1px solid green;
-    height: 100%;
 
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+
+
+}
+
+.sign-up-container {
+
+    width: 45%;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    padding: 20px 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+#call {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.button {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#second {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #F9FAF8;
+    padding: 5px 20px;
+    border: 1px solid #F9FAF8;
 }
 
 footer {
 
-    border: 1px solid blue;
-    height: 100%;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px;
+
 }
