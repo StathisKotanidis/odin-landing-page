@@ -9,9 +9,13 @@ body {
 }
 
 header {
-    border: 1px solid purple;
+    background-color: #1F2937;
     flex: 2;
 }
+
+
+
+/* Info section styling */
 
 .info {
 
@@ -21,11 +25,17 @@ header {
     justify-content: center;
     align-items: center;
 
+
 }
 
-.box-images-container {
+.divs-container {
     display: flex;
-    text-align: center;
+    justify-content: center;
+    /* align-items: center; */
+
+    align-items: center;
+    padding: 30px 0px;
+    gap: 32px;
 
 }
 
@@ -35,20 +45,32 @@ h2 {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    text-align: center;
+    margin: 30px;
+
 }
 
+.box {
+    width: 150px;
+}
 
 
 .box-image {
 
     width: 150px;
     height: 150px;
-    border: 1px solid #3882F6;
+    border: 4px solid #3882F6;
     border-radius: 5px;
-    margin: 0px auto;
 
 }
 
+p.subtext {
+    font-size: 18px;
+    text-align: center;
+
+}
+
+/* this styling refers to quote section */
 
 .quote {
 
@@ -70,6 +92,8 @@ h2 {
     padding-top: 20px;
 }
 
+
+/* Sign up styling section */
 
 .sign-up {
 
@@ -113,6 +137,10 @@ p {
     margin: 0;
 }
 
+#by-clicking {
+    font-size: 13px;
+}
+
 .button {
     display: flex;
     flex: 1;
@@ -128,6 +156,8 @@ p {
     padding: 5px 20px;
     border: 1px solid #F9FAF8;
 }
+
+/* Footer styling */
 
 footer {
 
