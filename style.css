@@ -11,20 +11,24 @@ body {
 header {
     border: 1px solid purple;
     flex: 2;
-
-
-
 }
 
 .info {
 
-    flex: 1;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
 }
+
+.box-images-container {
+    display: flex;
+    text-align: center;
+
+}
+
 
 h2 {
 
@@ -33,11 +37,15 @@ h2 {
     color: #1F2937;
 }
 
+
+
 .box-image {
-    width: 200px;
-    height: 100px;
+
+    width: 150px;
+    height: 150px;
     border: 1px solid #3882F6;
     border-radius: 5px;
+    margin: 0px auto;
 
 }
 
